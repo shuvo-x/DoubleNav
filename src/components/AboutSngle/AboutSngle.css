@@ -1,0 +1,62 @@
+#header{
+    width:100%;
+    height: 80vh;
+    margin-top: 30px;
+   
+  }
+  #header .animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  }
+  @-webkit-keyframes up-down {
+    0% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  @keyframes up-down {
+    0% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  .nav{
+    text-transform: uppercase;
+  }
+  .menu_active{
+    border-bottom: 1px solid #c91010;
+  }
+ 
+  .About-us-2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.About-us-2 ul li{
+    margin: 10px 0;
+
+}
+.About-us-2 ul{
+    margin-left: 20px;
+
+}
+@media  screen and (max-width:768px) {
+ 
+  #header{
+    width:100%;
+    height:auto;
+    margin:0;
+  }
+  .About-us-2{
+    margin-left:45px;
+  }
+
+
+   
+  
+}

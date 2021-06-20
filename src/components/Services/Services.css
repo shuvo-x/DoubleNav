@@ -1,0 +1,47 @@
+.services{
+    padding: 80px 0;
+}
+.Services{
+    padding:20px;
+}
+.Services h4{
+    padding: 5px;
+    margin-top: 20px;
+    text-transform: uppercase;
+
+}
+.service-img{
+    width: 70px;
+    margin-top: 20px;
+}
+.title::before
+{
+    content: '';
+    background: #7b1798;
+    height: 1px;
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.title::after
+{
+    content: '';
+    background: #7b1798;
+    height: 10px;
+    width: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(18px);
+}
+
+.services .btn-secondary{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+}
